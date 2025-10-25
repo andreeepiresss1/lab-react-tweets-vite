@@ -1,7 +1,7 @@
-export default function Timestamp({TWEET_TIMESTAMP}){
+export default function Timestamp({time}){
     return(
         <>
-            <span className="timestamp"> {TWEET_TIMESTAMP} </span>
+            <span className="timestamp"> {time} </span>
         </>
     )
 }

@@ -11,8 +11,8 @@ function Tweet({tweet}) {
 
       <div className="body">
         <div className="top">
-          <User USER_NAME={tweet.user.name} USER_HANDLE={tweet.user.handle}/>
-          <Timestamp TWEET_TIMESTAMP={tweet.timestamp}/>
+          <User name={tweet.user.name} handle={tweet.user.handle}/>
+          <Timestamp time={tweet.timestamp}/>
         </div>
         <Message message={tweet.message}/>
 
